@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
 	<title>virtual Startup Accelerator (vSA) </title>
-	<meta name="viewport" content="width-device-width,initial-scale-1.0">
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
 	
 	<!-- Loading 3rd Party CSS  -->
 	<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
@@ -13,6 +13,11 @@
 	<!-- Loading 3rd Party Javascript (Bootstrap and JQuery)-->
 	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
 	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+
+	<!-- Google API --> 
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"  rel="stylesheet" type="text/css">
+
 	<style type="text/css">
 		/* Large Desktops */
 		@media (min-width: 980px){
@@ -30,7 +35,7 @@
 		/* Landscape phones and down */
 		@media (max-width:480 px){
 			.copy {
-				padding: 2.5% 0%;
+				padding: 2.5% 10%;
 			}
 			.linediv-l {
                                 border-right: 1px white solid;
@@ -44,10 +49,10 @@
 		
 		/* Main Body and Headings */
 		body{
-			font-family: 'Open Sans', Helvetiva, Arial, sans-serif;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 		} 
 		.heading, .subheading {
-			font-family: 'Ubuntu', Helvetiva, Arial, sans-serif;
+			font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 			text-align: center;
 		}
 		p.lead {
@@ -123,32 +128,37 @@
 	</div>
 
 	<!-- Using raw-fluid inside to achieve resizable layout-->
-	<div class="row-fluid heading">
-		<div class="span12">
-			<h1> virtual Startup Accelator (vSA)</h1>
+	<div class="container">
+      	<!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
+      	<!-- www.google.com/fonts/specimen/Ubuntu -->
+      	<!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
+		<div class="row-fluid heading">
+			<div class="span12">
+				<h1> virtual Startup Accelator (vSA)</h1>
+			</div>
 		</div>
-	</div>
 	
-	<div class="row-fluid subheading">
-                <div class="span12">
-                        <p class="lead">
-				Thinking about creating your own startup and don't know how? <br> 
-				Now you do!!! <br><br>
-				<b>Welcome to virtual Startup Accelarator!</b> 
-			</p>
+		<div class="row-fluid subheading">
+                	<div class="span12">
+                        	<p class="lead">
+					Thinking about creating your own startup and don't know how? <br> 
+					Now you do!!! <br><br>
+					<b>Welcome to virtual Startup Accelarator!</b> 
+				</p>
 
-                </div>
-        </div>
+               		 </div>
+        	</div>
 
 	<div class="row-fluid pitch">
                 <div class="span5 offset1 video">
-                        <img class="img-polaroid" src="http://i.imgur.com/6CoCPPh.jpg">
+                        <img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/6CoCPPh.jpg">
                	</div>
        
 		<!-- Definig new 'action'to contains stats, order, and share buttons -->
 		<div class="span5 actions">
+		<div class="row-fluid">
 			<div class="span8 offset2">
-				<div class="statistics">
+				<div class="row-fluid statistics">
 					<div class="span4">
 						<div class="linediv-l">
 						<h3>0000</h3> <p>backers</p>
@@ -166,27 +176,33 @@
                                         </div>
 				</div>
 			</div>
+			<div class="row-fluid">
 			<div class="span10 offset1">
 				<div class="thermometer progress active">
 					<div class="bar bar-success" style="width: 0%"></div>
 					<div class="bar bar-warning" style="width: 100%"></div>
 				</div>
 			</div>
+			</div>
+			<div class="row-fluid">
 			<div class="span6 offset3 order">
 				<button class="btn btn-success btn-large">Pre-order</button>
 			</div>
+			</div>
+			<div class="row-fluid">
 			<div class="span8 offset2 social">
                                 <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter </button>
 				<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook </button>
-
                         </div>
+			</div>
+		</div>
 		</div>
 	</div>
 
 	<!-- Marketing Copy begging  -->
 	<div class="row-fluid section1">
 		<div class="span5 offset1 asset">
-			<img class="img-polaroid" src="http://i.imgur.com/tIKCsT1.jpg">
+			<img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/tIKCsT1.jpg">
 		</div>
 		<div class="span5 copy">
 			<p> <B>Because every one should be able to persued one's dreams!</B><br>
@@ -207,7 +223,7 @@
                         </p>
                 </div>
 		<div class="span5 asset">
-			<img class="img-polaroid" src="http://i.imgur.com/GI1grvM.jpg">
+			<img class="img-polaroid" alt="Placeholder" src="http://i.imgur.com/GI1grvM.jpg">
 		</div>
         </div>
 
@@ -260,7 +276,7 @@
 			<p>Copyright vSA, 2013. </p>
 		</div>
 	</div>
-
+	</div>
    </body>
 </html>
 
